@@ -1,0 +1,817 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+ #contenedor{
+     width: 100%;
+     max-width: 100%;
+ }
+
+
+/*
+
+#video{
+    position: absolute;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    z-index: -1;
+    margin-top: -100px;
+}*/
+
+#capa{
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    z-index: -1;
+    margin-top: -100px;   
+}
+
+#contenedor-video{
+   background-attachment: fixed; 
+   margin-top: 200px;
+    
+}
+
+#imagen-logo{
+    max-width: 100%;
+   
+}
+
+@media screen and (max-width:500px){
+    #logo-nadir{
+        width: 85%;
+        padding-bottom:30px;
+        margin-left: -40px;
+      
+
+    }
+    #menu-boton{
+        width: 15%;
+        
+    }
+        
+    }
+
+#track-responsiva{
+    max-width: 100%;
+}
+/*
+#video{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    visibility: visible;    
+}
+
+#contenedor-video{
+    margin-top: -10px; 
+    
+}*/
+
+
+
+#titulo-principal{
+    margin-top: 200px;
+    margin-bottom: 40px;
+    color: #464241;
+    margin-left: 100px;
+    font-size: 18px;
+    font-weight: bold; 
+    width: 40%; 
+
+   
+}
+
+#bloque-rastrear{
+    width: 100%;
+    margin-top: 50px; 
+}
+
+#texto{
+    color: #ffffff;
+    margin: 40px; 
+    padding-left: 30px;
+    width: 25%; 
+   
+}
+
+#texto-pro{
+    font-size: 21.5px; 
+}
+
+#texto-ingre{
+    font-size: 14px;
+    
+}
+#bloque{
+    width: 35%;
+    
+}
+
+#campo-codigo{
+    -moz-border-radius: 11px;
+    -webkit-border-radius: 11px;
+    border-radius: 11px;
+    width: 60%;
+    max-width: 200px;
+    
+}
+#track-responsiva{
+    position: absolute;
+    z-index: 1;
+    width: 32%;
+}
+/*@media screen and (max-width: 1188px){
+    #texto{
+  margin-top: 10px;
+  margin-left: 10px;
+    }
+}*/
+
+
+@media screen and (max-width: 1178px){
+    
+    #texto-pro{
+            
+            font-size: 10px;
+    }
+        
+    #texto-ingre{
+            
+            font-size: 10px;
+    }
+    #texto-veri{
+        font-size: 15px;
+    }
+    #texto{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 1156px){
+    #texto{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 976px){
+    #texto{
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 911px){
+    #texto{
+        margin-top: 5px;
+    }
+    #texto-ingre{
+        margin-bottom: 5px;
+    }
+    
+}
+
+
+@media screen and (max-width: 860px){
+	  #bloque-rastrear{
+         margin-top: 190px;
+         margin-bottom: -10px;
+         
+     }
+     
+     #track-responsiva{
+         width: 500px;
+         height: 200px;
+     }
+     #texto{
+         width: 80%;
+         margin-left: 30px;  
+         margin-top: 50px; 
+         }
+}
+@media screen and (max-width: 800px){
+    #bloque-rastrear{
+        margin-top: 110px;
+        margin-bottom: -90px;
+        
+    }
+
+}
+@media screen and (max-width: 683px){
+    #bloque-rastrear{
+        margin-top: 90px;
+        margin-bottom: -110px;
+        
+    }
+
+}
+@media screen and (max-width: 400px){
+    #bloque-rastrear{
+        margin-top: 55px;
+        margin-bottom: -145px;
+     
+        
+    }
+
+}
+@media screen and (max-width: 300px){
+    #bloque-rastrear{
+        margin-top: -25px;
+        margin-bottom: -185px;
+     
+        
+    }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 752px){
+    #titulo-plataforma{
+      margin-left: -50px;
+
+   }
+}
+
+
+
+
+@media screen and (max-width:682px){
+    #titulo-plataforma{
+        font-size: 30px;
+
+    }
+    #titulo-principal{
+        
+        width: 35%;
+    }
+}
+@media screen and (max-width:546px){
+    #titulo-plataforma{
+        font-size: 25px;
+        margin-top: -40px;
+        margin-left: 0;
+        
+
+
+    }
+    #titulo-principal{
+       
+        width: 35%;
+        margin-left: 20px;
+      
+    }
+}
+@media screen and (max-width:477px){
+    
+    #titulo-plataforma{
+        font-size: 20px;
+        margin-top: -50px;
+    }
+    #titulo-principal{
+       
+        width: 40%;
+        padding-top: 50px;
+       
+      
+    }
+   
+}
+@media screen and (max-width:401px){
+    
+    #titulo-plataforma{
+      
+        margin-top: -100px;
+    }
+   
+}
+@media screen and (max-width:339px){
+    
+    #titulo-plataforma{
+      
+        margin-top: -120px;
+    }
+    #titulo-principal{
+       
+        width: 50%;
+      
+       
+      
+    }
+   
+}
+
+
+
+
+
+
+
+/*@media screen and (max-width: 877px){
+    #texto{
+
+margin-top: 10px;
+    }  
+}
+@media screen and (max-width: 300px){
+   svg{
+       margin-top: -320px;
+       margin-left: -30px;
+       font-size:20px;
+      
+    }  
+    #bloque-rastrear{
+        
+        margin-bottom: -350px;
+        width: 100%;
+        padding-left: 0;
+       margin-left: 0;
+    }
+    #bloque{
+        margin-top: -100px;
+        width: 100%;
+        padding-left: 0;
+       margin-left: 0;
+        
+    }
+    #texto-pro{
+        width: 100%;
+        font-size: 10px;
+      top: 0;
+    }
+    
+    #texto-ingre{
+        font-size: 10px;
+     top: 0;
+    }
+    
+    
+    
+    input{
+        width: 50px;
+        
+    }
+    #texto{
+       padding-left: 0;
+       margin-left: -50px;
+    width: 100%;
+    
+    }
+    h1{
+    font-size: 10px;
+    }*/
+    
+   
+
+/*Qué es NADIR*/
+
+#queesNadir{
+    background: url(../imagenes/inf-nadir.png) no-repeat center center;
+    /*width: 1349px;
+    height: 432px;*/
+    color: #ffffff;
+    margin-top: 400px;
+    background-size: cover;
+    height: 432px;
+    /*background-attachment: fixed;*/
+    
+ 
+}
+    
+
+#informacio-queesnadir{
+    padding-top: 80px;
+   
+}
+
+#div_funcion{
+    margin-top: 200px;
+}
+
+
+#imagender{
+width: 50%;
+padding: 20px;
+text-align: center;
+box-sizing: border-box;
+display: inline-block;
+}
+
+#inf-funcion-der{
+width: 50%;
+float: right;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-right: 100px;
+padding-left: 20px;
+box-sizing: border-box;
+
+}
+
+#inf-funcion-izq{
+    width: 50%; 
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 50px;
+    box-sizing: border-box;
+   
+}
+
+#imagenizq{
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    float: right;
+    
+}
+
+@media screen and (max-width:900px){
+    #imagender, #imagenizq{
+        width: 40%;
+       
+        
+    } 
+    #inf-funcion-der, #inf-funcion-izq{
+        width: 60%;
+    } 
+}
+
+@media screen and (max-width:800px){
+    #imagender, #imagenizq{
+        width: 100%;
+        padding-right: 20px;
+        
+        
+    } 
+    #inf-funcion-der, #inf-funcion-izq{
+        width: 100%;
+        padding-left: 20px;
+       
+    } 
+}
+
+
+
+
+
+
+/*
+#titulo-nadir{
+    font-weight: bold;
+    border-left-style: solid;
+    border-left-color: #ffffff;
+    border-style: 3px;
+    padding-left: 30px;
+    
+}*/
+
+#inf-nadir{
+    font-size: 20px;
+    padding-top: 20px;
+    
+}
+
+/*Funcionamiento NADIR*/
+#funcionNadir{
+    /*margin-left: 230px;*/
+   /* margin-right: 230px;*/
+    margin-bottom: 300px;
+    
+}
+
+
+
+
+#texto-inf-funcion{
+    margin-top: 50px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    padding-left: 20px;
+    border-left-color: #3B3C3D;
+    
+    
+}
+
+#texto-inf-funcion1{
+    margin-top: 50px;
+    border-left-style: solid;
+    border-left-width: 1px;
+    padding-left: 20px;
+    border-left-color: #3B3C3D;
+    /*margin-left: 230px;
+    width: 400px;*/
+    
+}
+
+#div_funcion1{
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+
+/*Beneficios NADIR*/
+
+#beneficiosNadir{
+    background: url(../imagenes/beneficios.png) no-repeat center center;
+   /* width: 1349px;*/
+    height: 726px;
+    color:#ffffff;
+    padding-left: 100px;
+    padding-top: 70px;
+    background-size: cover;
+    margin-top: 150px;
+    
+}
+
+@media screen and (max-width:800px){
+    #beneficiosNadir{
+        margin-top: 300px;
+        
+        
+    } 
+     
+}
+
+
+
+#bene-izq{
+    margin-top: 30px;
+    width: 40%;
+    display:inline-block;
+    box-sizing: border-box;
+}
+#bene-der{
+    width: 60%;
+    float: right;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+@media screen and (max-width:800px){
+    #bene-izq, #tibene{
+        width: 100%;
+         
+    } 
+    #bene-der{
+        width: 100%;
+        margin-top: 20px;
+     
+    } 
+}
+@media screen and (max-width:400px){
+    #bene-izq, #tibene{
+       margin-left:-50px;
+      
+         
+    } 
+    #bene-der{
+        margin-right: 50px;
+       
+    } 
+}
+/*Módulos NADIR*/
+
+#modulosNadir{
+    background: url(../imagenes/Modulos.png) no-repeat ;
+    height: 695px;
+    margin-left: 548px;
+    background-size: cover;
+}
+
+#textmodulos{
+    width: 30%;
+    margin-left: -400px;
+    padding-top: 150px;
+    display: inline-block;
+}
+/*.video-web{
+   position: relative;
+    padding-bottom: 75%;
+  
+      height: 0; overflow: hidden;
+}*/
+/*.video-web iframe,
+.video-web object,
+.video-web embed{
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+    height: 100%;  
+}*/
+/*.video-web{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}*/
+
+.video-web{
+    text-align: center;
+}
+
+.video-box{
+    width: 100%;
+    max-width: 470px;
+    height: auto;
+    text-align: center; 
+}
+.video{
+    position: relative; 
+}
+
+.video video{
+    width: 100%;
+    height: auto;
+}
+
+.img-compu{
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+   top:-10px;
+   left: 0; 
+}
+
+#imagenmodulos{
+    width: 70%;
+    float: right;   
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-right: 80px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    position: relative;
+   /* overflow:hidden;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    display: inline-block;*/
+    box-sizing: border-box; 
+}
+
+@media screen and (max-width:1000px){
+    #textmodulos{
+        width:100%;  
+        margin-left: 450px;
+        box-sizing: border-box;
+        margin-top: 0;
+        padding-top: 150px;
+        padding-left: 30px; 
+        background: url(../imagenes/Modulos.png) no-repeat ;
+        height: 600px;
+        background-size: cover;
+    } 
+    #imagenmodulos{
+        width:100%;
+        padding-top:50px;
+        margin:0;   
+        background-color: #3272CB;
+        text-align: center;
+        
+    }
+    #modulosNadir{
+        background:none;
+        margin-left: 0;
+        height: 800px;
+    } 
+    #titulo-mod {
+        margin-left: -400px;
+    }
+    #lista-mod{
+        margin-left: -400px;
+    }
+    .video-web{
+       width: 100%;
+    }
+    .video-box{
+        width: 100%;
+        margin: auto;
+    }
+    
+    
+    
+}
+
+
+.boton-web{
+    text-align: center;
+}
+
+#btn_acceder{
+    border-radius: 20px;
+    border: 3px  #3272CB;
+    width: 150px;;
+    height: 40px;
+    color: #3272CB;
+    font-weight: bold;
+    margin-top: 100px;  
+}
+
+.video-web:hover{
+    -webkit-transform:scale(1.2);transform:scale(1.2); 
+}
+
+
+/*Aplicaciones NADIR*/
+#aplicacionesNadir{
+    background: url(../imagenes/fondo-aplicaciones.png) no-repeat;
+    height: auto;
+    margin-top: 200px;
+    background-size: cover;
+  
+ 
+ 
+}
+
+#imagen-aplicaciones{
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+  
+    
+    /*margin-left: 150px;
+    margin-bottom: 60px;*/
+}
+
+#texto-aplicaciones{
+    width: 50%;
+    float: right;
+    /*margin-right: 150px;
+    margin-top: -650px*/
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:700px){
+    #imagen-aplicaciones{
+        width: 100%;
+        
+        
+        
+    }
+    #texto-aplicaciones{
+        width: 100%;
+        padding-left: 20px;
+        background: url(../imagenes/fondo-aplicaciones.png) no-repeat;
+        height: auto;
+        background-size: cover;
+  
+        
+    }
+    .dispositivos{
+        margin-top: 550px;
+    }
+    
+   
+    
+}
+
+
+
+#texto-aplicaciones p{
+    color: #3B3C3D;
+    border-top-style: solid;
+    border-top-width: 1px;  
+}
+
+#texto-aplicaciones h4{
+    font-weight: bold;
+    margin-top: 40px;
+}
+/*-------------------------------*/
+
+/*---------BOTON MODAL----------------------*/
+#boton-modal{
+    font-size: 15px;
+    background: #202792 ;
+    margin: auto;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 40px;
+    cursor: pointer;
+  
+
+}
+#boton-modal:hover{
+    color: #202792;
+    background: #fff ;
+    border: 2px solid #202792;
+    font-weight: 500;
+}
